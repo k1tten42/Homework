@@ -1,0 +1,18 @@
+---
+title: "hw #3"
+format: html
+editor: visual
+---
+
+```{r}
+numbers <- rpois(1000, lambda = 2)
+```
+
+```{r}
+#| echo: false
+boxplot(numbers)
+```
+
+```{r}
+hist(numbers)
+```
