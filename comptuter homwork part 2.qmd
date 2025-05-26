@@ -4,8 +4,12 @@ format: html
 editor: visual
 ---
 
+Problems from the MIT course, exercise 1 and 2
+
 ```{r}
-normaldistrabuion <- rnorm(1000, mean = 8, sd= 5)
+Mean <- 8
+SD <- 5
+normaldistrabuion <- rnorm(1000, mean = Mean, sd= SD)
 ```
 
 ```{r}
@@ -25,12 +29,12 @@ samplesd <- sd(normaldistrabuion)
 ```
 
 ```{r}
-8+(5*-0.67)
+Mean+(SD*-0.67)
 
 ```
 
 ```{r}
-8+(5*0.67)
+Mean+(SD*0.67)
 ```
 
 ```{r}
