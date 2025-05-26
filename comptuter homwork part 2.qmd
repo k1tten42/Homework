@@ -19,7 +19,7 @@ normaldistrabuion <- rnorm(1000, mean = 8, sd= 5)
 You can add options to executable code like this
 
 ```{r}
-veggies <- normaldistrabuion >= 9
+sum(normaldistrabuion >= 9)
 ```
 
 ```{r}
