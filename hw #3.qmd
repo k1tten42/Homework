@@ -1,0 +1,21 @@
+---
+title: "Homework exercise #3"
+format: html
+editor: visual
+---
+
+a\. Generate a vector of 1000 Poisson random numbers with λ = 2.
+
+```{r}
+numbers <- rpois(1000, lambda = 2)
+```
+
+b\. Make a histogram and a boxplot of the 1000 numbers from part (a).
+
+```{r}
+boxplot(numbers)
+```
+
+```{r}
+hist(numbers)
+```
