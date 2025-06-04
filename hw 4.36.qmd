@@ -16,7 +16,8 @@ a\) Make a scatter plot of unemployment rates vs. snowfall. what relationship is
 
 ```{r}
 ggplot(snowrates) +
-  geom_point(mapping = aes(x=snow_fall, y= unemployment_rates))
+  geom_point(mapping = aes(x=snow_fall, y= unemployment_rates))+
+  expand_limits(x = 0, y =0)
 ```
 
 There appears to be a positive linear relationship between snow fall and unemployment rates.
