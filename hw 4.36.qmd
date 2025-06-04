@@ -1,0 +1,35 @@
+---
+title: "question 4.36"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+snowrates <- tibble(snow_fall = c(45, 59, 82, 80, 71, 60, 55, 69, 79, 95),
+                  unemployment_rates = c(4.9, 5.6, 8.5, 7.7, 7.1, 6.1, 5.8, 7.1, 7.6, 9.7),
+                 )
+
+```
+
+a\) Make a scatter plot of unemployment rates vs. snowfall. what relationship is indicated by the scatter plot?
+
+```{r}
+ggplot(snowrates) +
+  geom_point(mapping = aes(x=snow_fall, y= unemployment_rates))+
+  expand_limits(x = 0, y =0)
+```
+
+There appears to be a positive linear relationship between snow fall and unemployment rates.
+
+b\) Calculate the correlation coefficient. Is there a strong linear relationship between snowfall and unemployment?
+
+```{r}
+cor(snowrates)
+```
+
+with a value of 0.98, there appears to be a very strong relationship.
+
+c\) Does this relationship mean that Amherst annual snowfall influences the national unemployment rates or vice versa?
+
+No. While the two events have high correlation, correlation is no causation, so we should preform further inference before stating any such influences.
