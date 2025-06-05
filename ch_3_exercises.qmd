@@ -1,0 +1,27 @@
+---
+title: "Chapter 3 questions" 
+format: html 
+editor: visual 
+---
+
+3.12 A large school district plans to survey 1000 our of 50,000 parents or guardians with enrolled children regarding their preferences on options to deal with growth in student enrollment. A complete alphabetical list of parent/guardian names is available. In each of the following instances name the sampling method used.
+
+\(a\) One of the first 50 names on the complete list is randomly chosen; that person and every 50th person on the list after that person are surveyed. **Systematic sampling**
+
+\(b\) The complete list of names is divided into separate lists by their oldest child's year in school (K through 12). Random numbers are assigned to names, and each list is ordered by the assigned random numbers. The first 2% of the ordered names in each list are surveyed. **Stratified Random Sampling**
+
+\(c\) A random number is assigned to each name using a computer random number generator. Names are ordered by the random numbers, and the first 1000 are surveyed. **Simple Random Sampling**
+
+\(d\) A 50% SRS is taken of the high schools (grades 9-12) and of the elementary schools (grades K-8) from the district. Within each selected school a 50% SRS of grades is chosen. A sampling frame is composed of parent/guardians of children in the selected grades and an SRS of those people is surveyed. **Multistage Cluster Sampling**
+
+3.17 A company employs 2000 men and 1500 women, of whom 100 men and 50 women are in management positions. A survey is planned to study employee attitudes towards the company options on retirement contributions. Attitudes appear to differ by gender and by management/regular employee status. Describe a sampling plan that would provide attitude information for each subgroup defined by gender and management status as well as company wide based on a total sample of 700 people. **Using a stratified random sample would allow for separate groups for managers and regular employees, further divided into two groups by gender. within each strata, assign each employee a number, then randomly draw numbers until you've selected 20% of the strata.**
+
+3.18 Tell which sampling design you would use and why in each of the following instances.
+
+\(a\) You need to collect statistics on types of software applications (e.g. for word processing, spreadsheets, e-mail, internet, number crunching, etc) used by employees of a company. seperate lists of employees are available classified by job categories (e.g., managerial, engineers, R& D scientists, workers, and secretarial staff) Stratified **Random Sampling would allow for the data to be categorized by job, accounting for the different needs of different jobs.**
+
+\(b\) Patients arriving at an emergency room facility are to be sampled to study their demographics, type of ailment, time until triage, etc. It is decided to sample 10% of the patients. **A Simple Random Sample would work here as the population appears to be relatively homogeneous and a manageable size.**
+
+\(c\) An engineering school plans to conduct a mail survey of its alumni who graduated after 1980 to collect data on their current employment status. A complete alphabetical list of the alumni is available. **Systematic Sampling is optimal for a population of this size with relative homogeneity.**
+
+\(d\) A national sample of college students is to be taken, but a comprehensive list of all college students doesn't exist. A list of all colleges (private and public) exists. For any particular college, a list of all students can be obtained. **Multistage Cluster Sampling would allow for the random selection of colleges from the list and then random selection of students from those colleges.**
